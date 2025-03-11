@@ -17,10 +17,10 @@ const (
 )
 
 type Game struct {
-	grid      [][]bool
-	nextGrid  [][]bool
+	grid       [][]bool
+	nextGrid   [][]bool
 	lastUpdate time.Time
-	paused    bool
+	paused     bool
 }
 
 func NewGame() *Game {
